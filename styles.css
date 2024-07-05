@@ -1,0 +1,76 @@
+/* styles.css - Formatting CSS */
+/* Format lists, background, and text */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #2F4F4F;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+h1, h2 {
+    color: #2F4F4F;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/* Pseudo-classes and elements */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h1::first-letter {
+    font-size: 2em;
+    color: #B0E0E6;
+}
+
+/* Contextual and attribute selectors */
+section > article {
+    border-bottom: 1px solid #D3D3D3;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #D3D3D3;
+}
+
+/* Resize images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img.breed-image {
+    width: 300px; /* Adjust the width as needed */
+}
+
+/* Image gallery styling */
+.image-gallery {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
